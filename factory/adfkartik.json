@@ -1,0 +1,9 @@
+{
+	"name": "adfkartik",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a087b579-644f-42d4-a4dd-739e03ac2f80",
+		"tenantId": "0912c78d-18da-43f4-bf58-bf2848b32693"
+	}
+}
