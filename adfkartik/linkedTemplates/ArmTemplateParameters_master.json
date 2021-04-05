@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfkartik"
+		},
+		"AssignContainerLS_connectionString": {
+			"value": ""
+		},
+		"SQLServerAW_connectionString": {
+			"value": ""
+		},
+		"SQLServerAW_password": {
+			"value": ""
+		},
+		"SampleDBLS_connectionString": {
+			"value": ""
+		},
+		"SqlLS_connectionString": {
+			"value": ""
+		},
+		"SqlLS_password": {
+			"value": ""
+		},
+		"SQLServerAW_properties_typeProperties_userName": {
+			"value": "kartikbhat9819@gmail.com"
+		},
+		"SqlLS_properties_typeProperties_userName": {
+			"value": "kartikbhat9819@gmail.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
