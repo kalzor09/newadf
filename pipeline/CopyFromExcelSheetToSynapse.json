@@ -41,9 +41,17 @@
 										"rejectValue": 0,
 										"rejectType": "value",
 										"useTypeDefault": false
-									}
+									},
+									"tableOption": "autoCreate"
 								},
-								"enableStaging": false
+								"enableStaging": true,
+								"stagingSettings": {
+									"linkedServiceName": {
+										"referenceName": "linkedService1",
+										"type": "LinkedServiceReference"
+									},
+									"path": "assign3"
+								}
 							},
 							"inputs": [
 								{
