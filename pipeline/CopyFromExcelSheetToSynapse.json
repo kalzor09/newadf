@@ -30,7 +30,7 @@
 									"type": "ExcelSource",
 									"storeSettings": {
 										"type": "FileServerReadSettings",
-										"recursive": true,
+										"recursive": false,
 										"enablePartitionDiscovery": false
 									}
 								},
