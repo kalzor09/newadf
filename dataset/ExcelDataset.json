@@ -1,0 +1,19 @@
+{
+	"name": "ExcelDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AssignContainerLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SalesData.xlsx",
+				"container": "output"
+			}
+		},
+		"schema": []
+	}
+}

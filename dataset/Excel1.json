@@ -1,0 +1,27 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ExcelFileSource",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sheetName": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().sheetName",
+				"type": "Expression"
+			},
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "SalesData.xlsx"
+			}
+		},
+		"schema": []
+	}
+}
