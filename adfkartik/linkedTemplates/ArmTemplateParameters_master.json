@@ -29,6 +29,9 @@
 		"SqlLS_password": {
 			"value": ""
 		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
 		"ExcelFileSource_properties_typeProperties_host": {
 			"value": "C:\\Users\\karti\\Desktop\\Lectures\\ADF\\"
 		},

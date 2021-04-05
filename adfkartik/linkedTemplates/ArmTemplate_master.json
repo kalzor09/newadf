@@ -39,6 +39,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'SqlLS'"
 		},
+		"linkedService1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'linkedService1'"
+		},
 		"ExcelFileSource_properties_typeProperties_host": {
 			"type": "string",
 			"defaultValue": "C:\\Users\\karti\\Desktop\\Lectures\\ADF\\"
@@ -90,6 +94,9 @@
 					},
 					"SampleDBLS_connectionString": {
 						"value": "[parameters('SampleDBLS_connectionString')]"
+					},
+					"linkedService1_connectionString": {
+						"value": "[parameters('linkedService1_connectionString')]"
 					},
 					"ExcelFileSource_password": {
 						"value": "[parameters('ExcelFileSource_password')]"
