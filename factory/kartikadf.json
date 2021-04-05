@@ -1,0 +1,9 @@
+{
+	"name": "kartikadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c926feb0-fa48-4c4c-99c0-59b9f6e356ea",
+		"tenantId": "0912c78d-18da-43f4-bf58-bf2848b32693"
+	}
+}
