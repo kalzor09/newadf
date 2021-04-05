@@ -8,6 +8,12 @@
 		"AssignContainerLS_connectionString": {
 			"value": ""
 		},
+		"AzureSynapseAnalyticsLS_connectionString": {
+			"value": ""
+		},
+		"ExcelFileSource_password": {
+			"value": ""
+		},
 		"SQLServerAW_connectionString": {
 			"value": ""
 		},
@@ -22,6 +28,12 @@
 		},
 		"SqlLS_password": {
 			"value": ""
+		},
+		"ExcelFileSource_properties_typeProperties_host": {
+			"value": "C:\\Users\\karti\\Desktop\\Lectures\\ADF\\"
+		},
+		"ExcelFileSource_properties_typeProperties_userId": {
+			"value": "kartikbhat9819@gmail.com"
 		},
 		"SQLServerAW_properties_typeProperties_userName": {
 			"value": "kartikbhat9819@gmail.com"

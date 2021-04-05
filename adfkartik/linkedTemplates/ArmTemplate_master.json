@@ -11,6 +11,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AssignContainerLS'"
 		},
+		"AzureSynapseAnalyticsLS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSynapseAnalyticsLS'"
+		},
+		"ExcelFileSource_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'ExcelFileSource'"
+		},
 		"SQLServerAW_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'SQLServerAW'"
@@ -30,6 +38,14 @@
 		"SqlLS_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'SqlLS'"
+		},
+		"ExcelFileSource_properties_typeProperties_host": {
+			"type": "string",
+			"defaultValue": "C:\\Users\\karti\\Desktop\\Lectures\\ADF\\"
+		},
+		"ExcelFileSource_properties_typeProperties_userId": {
+			"type": "string",
+			"defaultValue": "kartikbhat9819@gmail.com"
 		},
 		"SQLServerAW_properties_typeProperties_userName": {
 			"type": "string",
@@ -69,8 +85,14 @@
 					"AssignContainerLS_connectionString": {
 						"value": "[parameters('AssignContainerLS_connectionString')]"
 					},
+					"AzureSynapseAnalyticsLS_connectionString": {
+						"value": "[parameters('AzureSynapseAnalyticsLS_connectionString')]"
+					},
 					"SampleDBLS_connectionString": {
 						"value": "[parameters('SampleDBLS_connectionString')]"
+					},
+					"ExcelFileSource_password": {
+						"value": "[parameters('ExcelFileSource_password')]"
 					},
 					"SQLServerAW_connectionString": {
 						"value": "[parameters('SQLServerAW_connectionString')]"
@@ -83,6 +105,12 @@
 					},
 					"SqlLS_password": {
 						"value": "[parameters('SqlLS_password')]"
+					},
+					"ExcelFileSource_properties_typeProperties_host": {
+						"value": "[parameters('ExcelFileSource_properties_typeProperties_host')]"
+					},
+					"ExcelFileSource_properties_typeProperties_userId": {
+						"value": "[parameters('ExcelFileSource_properties_typeProperties_userId')]"
 					},
 					"SQLServerAW_properties_typeProperties_userName": {
 						"value": "[parameters('SQLServerAW_properties_typeProperties_userName')]"
