@@ -5,9 +5,18 @@
 			"referenceName": "AssignContainerLS",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"sheetName": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().sheetName",
+				"type": "Expression"
+			},
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "SalesData.xlsx",
