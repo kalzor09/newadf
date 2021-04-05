@@ -20,7 +20,8 @@
 			"location": {
 				"type": "FileServerLocation",
 				"fileName": "SalesData.xlsx"
-			}
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": []
 	}
