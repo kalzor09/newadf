@@ -429,7 +429,7 @@
 						"userProperties": [],
 						"typeProperties": {
 							"items": {
-								"value": "[[\n{\n\t\"sheetName\":\"Customer\"\n},\n{\n\t\"sheetName\":\"Product\"\n},\n{\n\t\"sheetName\":\"Orders\"\n},\n{\n\t\"sheetName\":\"Location\"\n},\n{\n\t\"sheetName\":\"Order_Details\"\n}\n]",
+								"value": "@pipeline().parameters.sheetList",
 								"type": "Expression"
 							},
 							"activities": [
@@ -489,6 +489,28 @@
 						}
 					}
 				],
+				"parameters": {
+					"sheetList": {
+						"type": "array",
+						"defaultValue": [
+							{
+								"sheetName": "Customer"
+							},
+							{
+								"sheetName": "Product"
+							},
+							{
+								"sheetName": "Orders"
+							},
+							{
+								"sheetName": "Location"
+							},
+							{
+								"sheetName": "Order_Details"
+							}
+						]
+					}
+				},
 				"annotations": []
 			},
 			"dependsOn": [
